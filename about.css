@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.arc-galleria1 {
+  position: relative;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.name-of-gallery5 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.showcase3 {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-weight: 300;
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+}
+.about5,
+.showcase3,
+.span {
+  font-family: var(--font-helvetica-neue);
+}
+.span {
+  font-weight: 300;
+}
+.about4 {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+}
+.hamburger-menu3,
+.nav-bar3 {
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.nav-bar3 {
+  align-self: stretch;
+  height: 92px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1440px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nerihu1,
+.pm-in-williamsburg-nyc1 {
+  position: relative;
+  display: inline-block;
+}
+.nerihu1 {
+  font-weight: 500;
+}
+.pm-in-williamsburg-nyc1 {
+  font-size: var(--font-size-5xs);
+  color: var(--color-gray-300);
+}
+.exhibition-description1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.nerihu-vert-icon {
+  position: relative;
+  width: 410.92px;
+  height: 489px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-div5 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs) var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.neri-hu-design-and-research,
+.searching-for-ruin {
+  position: relative;
+  display: inline-block;
+}
+.neri-hu-design-and-research {
+  font-size: var(--font-size-4xs);
+  width: 375px;
+}
+.frame-div6 {
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.aboutthem,
+.frame-div6,
+.process-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.process-1 {
+  flex-direction: row;
+  gap: var(--gap-md);
+  font-size: var(--font-size-xl);
+}
+.aboutthem {
+  flex-direction: column;
+  gap: 38px;
+  font-size: var(--font-size-4xl);
+}
+.plan-1-icon,
+.plan-2-icon,
+.plan-4-icon,
+.plan-5-icon,
+.plan-6-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 372.84px;
+  height: 317.81px;
+  object-fit: cover;
+}
+.plan-2-icon,
+.plan-4-icon,
+.plan-5-icon,
+.plan-6-icon {
+  top: 337.75px;
+  height: 227.95px;
+}
+.plan-4-icon,
+.plan-5-icon,
+.plan-6-icon {
+  top: 169.47px;
+  left: 392.78px;
+  height: 228.49px;
+}
+.plan-5-icon,
+.plan-6-icon {
+  top: 0;
+  height: 149.7px;
+}
+.plan-6-icon {
+  top: 417.9px;
+  height: 147.94px;
+}
+.plans1 {
+  position: relative;
+  width: 765.62px;
+  height: 565.84px;
+  flex-shrink: 0;
+}
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.every-neri {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.neri-hus {
+  margin: 0;
+}
+.every-neri-hu-desgin-project {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  display: inline-block;
+  width: 353px;
+}
+.process-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 43px;
+}
+.what-ive-learned-neri-hu-3-icon {
+  position: relative;
+  width: 945px;
+  height: 630px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-div8 {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.neri-and-hu-are-also-the-found {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  display: inline-block;
+  width: 501px;
+}
+.main-content,
+.process-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.main-content {
+  position: absolute;
+  top: 255px;
+  left: 0;
+  width: 1402px;
+  padding: 0 0 0 50px;
+  box-sizing: border-box;
+  gap: 78px;
+}
+.appendix1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.footer2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-md);
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 27.16px;
+  left: 1275px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footer1 {
+  position: absolute;
+  top: 2601.84px;
+  left: 0;
+  width: 1440px;
+  height: 65px;
+  overflow: hidden;
+}
+.about3 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 2666.84px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-helvetica-neue);
+}
+@media screen and (max-width: 1200px) {
+  .navbar3 {
+    width: 100%;
+  }
+}

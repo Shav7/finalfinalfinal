@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.previous-project {
+  position: relative;
+  display: inline-block;
+}
+.previous-project-button {
+  position: absolute;
+  top: 2128px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 45px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.screen-shot-2022-11-29-at-4103 {
+  position: relative;
+  width: 331.69px;
+  height: 468.6px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.the-magical-lane-houses-which {
+  position: relative;
+  display: inline-block;
+  width: 331.69px;
+}
+.frame-div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.div3 {
+  position: absolute;
+  top: 1181.27px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 139.13px;
+  font-size: var(--font-size-2xs);
+}
+.neri-and-hu-rethinking-the-spl-icon1 {
+  position: relative;
+  width: 1285px;
+  height: 722.81px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.utilizing-the-wear-that-old-ma {
+  position: relative;
+  display: inline-block;
+  width: 526.08px;
+}
+.div4,
+.frame-div4 {
+  display: flex;
+  flex-direction: column;
+}
+.frame-div4 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16.47px;
+}
+.div4 {
+  position: absolute;
+  top: 184px;
+  left: 0;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: 16.47px;
+}
+.backbutton-icon1 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.name-of-gallery3 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.about2,
+.rethinking-the-split-house1,
+.showcase2 {
+  position: relative;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about2,
+.showcase2 {
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-400);
+  cursor: pointer;
+}
+.about2 {
+  font-weight: 300;
+}
+.hamburger-menu2,
+.nav-bar2 {
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.nav-bar2 {
+  align-self: stretch;
+  height: 92px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+}
+.exhibition-p2,
+.navbar2 {
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+}
+.navbar2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exhibition-p2 {
+  position: relative;
+  width: 100%;
+  height: 2255px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-helvetica-neue);
+}
+@media screen and (max-width: 1200px) {
+  .navbar2 {
+    width: 100%;
+  }
+}

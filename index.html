@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Helvetica Neue:wght@300;400;500;700&display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Neue Haas Grotesk Text Pro:wght@400&display=swap" />
+</head>
+
+<body>
+  <div class="landing-page-main">
+    <button class="footer" id="footer">
+      <div class="appendix">Appendix</div>
+    </button>
+    <main class="exhibition-description">
+      <div class="selected-work">neri&hu</div>
+      <img class="main-picture-icon" alt="" src="public/mainpicture@2x.png" />
+
+      <h1 class="dates">
+        <div class="dec-12-dec-20">DEC 12 - DEC 20</div>
+      </h1>
+
+      <div class="pm-in-williamsburg-nyc">
+        4:30 - 7:00 pm in Williamsburg, NYC
+      </div>
+      <div class="neri-hu-after-travelling-acr">
+        Neri + Hu after travelling across the world, reside in their hometown
+        based in China. They are very careful in resisting the urge to fix the
+        flaws of projects they take on as every crack tell’s their audience a
+        story about the place. From the pictures you can notice that they
+        carefully exposed the raw structures with modern elements to elevate
+        the precious in old. Reminding us of what it is like to preserve the
+        ruin. Come visit their exhibit.
+      </div>
+
+
+      <h1 class="sub-header" id="subHeader">
+        <div class="selected-work">selected work</div>
+      </h1>
+      <div class="flex-cont">
+
+
+        <div class="exhibit-1" id="exhibit1">
+          <img class="neri-and-hu-rethinking-the-spl-icon" alt="" src="public/stringio-1@2x.png" />
+          <div class="rethinking-the-split-house">The Vertical Lane House</div>
+          <div class="architecturally-the-decorativ">
+            The original concrete building has been restored while new additions
+            built over the existing structure were made using Cor-Ten steel,
+            reflecting the industrial past of this working dock by the Huangpu
+            River.
+          </div>
+        </div>
+
+        <div class="exhibit-2" id="exhibit2">
+          <img class="neri-and-hu-rethinking-the-spl-icon" alt=""
+            src="public/neriandhurethinkingthesplithouse06@2x.png" />
+          <div class="rethinking-the-split-house">Rethinking The Split House</div>
+          <div class="architecturally-the-decorativ">
+            Architecturally, the decorative elements added over the last 60 years
+            were stripped off, and large openings were created on the frontal
+            section to improve light qualities to the public spaces of each
+            apartment.
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <div class="navbar">
+      <nav class="nav-bar">
+        <div class="name-of-gallery" id="nameOfGallery">
+          <div class="arc-galleria">[ARC GALLERIA]</div>
+        </div>
+        <div class="hamburger-menu">
+          <div class="showcase" id="showcaseText">showcase</div>
+          <div class="showcase" id="aboutText">about</div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <script>
+    var footer = document.getElementById("footer");
+    if (footer) {
+      footer.addEventListener("click", function (e) {
+        window.location.href = "./references.html";
+      });
+    }
+
+    var exhibit2 = document.getElementById("exhibit2");
+    if (exhibit2) {
+      exhibit2.addEventListener("click", function (e) {
+        window.location.href = "./exhibition-p2.html";
+      });
+    }
+
+    var exhibit1 = document.getElementById("exhibit1");
+    if (exhibit1) {
+      exhibit1.addEventListener("click", function (e) {
+        window.location.href = "./exhibition-p1.html";
+      });
+    }
+
+    var subHeader = document.getElementById("subHeader");
+    if (subHeader) {
+      subHeader.addEventListener("click", function (e) {
+        window.location.href = "./exhibition-page-main.html";
+      });
+    }
+
+    var nameOfGallery = document.getElementById("nameOfGallery");
+    if (nameOfGallery) {
+      nameOfGallery.addEventListener("click", function (e) {
+        window.location.href = "/";
+      });
+    }
+
+    var showcaseText = document.getElementById("showcaseText");
+    if (showcaseText) {
+      showcaseText.addEventListener("click", function (e) {
+        window.location.href = "./exhibition-page-main.html";
+      });
+    }
+
+    var aboutText = document.getElementById("aboutText");
+    if (aboutText) {
+      aboutText.addEventListener("click", function (e) {
+        window.location.href = "./about.html";
+      });
+    }
+  </script>
+</body>
+
+</html>

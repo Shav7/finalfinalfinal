@@ -1,0 +1,42 @@
+:root {
+  /* fonts */
+  --font-helvetica-neue: "Helvetica Neue";
+  --font-neue-haas-grotesk-text-pro: "Neue Haas Grotesk Text Pro";
+
+  /* font sizes */
+  --font-size-5xs: 14px;
+  --font-size-4xs: 15px;
+  --font-size-3xs: 16.32px;
+  --font-size-2xs: 16.7px;
+  --font-size-xs: 17.1px;
+  --font-size-sm: 20px;
+  --font-size-base: 22px;
+  --font-size-lg: 30px;
+  --font-size-xl: 31px;
+  --font-size-2xl: 33.72px;
+  --font-size-3xl: 35.34px;
+  --font-size-4xl: 60px;
+
+  /* Colors */
+  --color-gray-100: #f6f6f6;
+  --color-gray-200: #e8e7e7;
+  --color-gray-300: #7a7a7a;
+  --color-gray-400: #5e5e5e;
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-xs: 6px;
+  --gap-sm: 10.88px;
+  --gap-md: 13px;
+  --gap-lg: 13.68px;
+  --gap-xl: 23.37px;
+
+  /* Paddings */
+  --padding-2xs: 7px;
+  --padding-xs: 10px;
+  --padding-sm: 19px;
+  --padding-md: 30px;
+  --padding-lg: 41px;
+  --padding-xl: 46px;
+}

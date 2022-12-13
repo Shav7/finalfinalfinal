@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.appendix {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.footer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xs) var(--padding-md);
+  background-color: var(--color-gray-200);
+  position: absolute;
+  bottom:0;
+  right: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.neri-and-hu-rethinking-the-spl-icon {
+  position: relative;
+  width: 25vw;
+  height: 417.69px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.architecturally-the-decorativ,
+.rethinking-the-split-house {
+  position: relative;
+  display: inline-block;
+}
+.architecturally-the-decorativ {
+  font-size: var(--font-size-3xs);
+  width: 100%;
+}
+.exhibit-1,
+.exhibit-2 {
+  flex-basis: 30rem;
+  flex-grow: 1;
+  /* position: absolute; */
+  font-size: var(--font-size-2xl    );
+  top: 1561px;
+  left: 747.81px;
+  display: flex;
+  flex-direction: column;
+  align-items: align;
+  justify-content: flex-start;
+
+  gap: var(--gap-sm);
+  cursor: pointer;
+  
+}
+.exhibit-1 img, .exhibit-2 img{
+    width: 100%;
+  
+}
+.exhibit-1 {
+  left: 41px;
+}
+.selected-work {
+  /* position: relative; */
+  font-weight: 500;
+  display: inline-block;
+}
+.sub-header {
+  margin: 0;
+  margin-top: 5rem;
+  /* position: absolute; */
+  top: 1485px;
+  left: 41px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+  font-family: inherit;
+}
+.pm-in-williamsburg-nyc {
+  position: relative;
+  font-size: var(--font-size-5xs);
+  color: var(--color-gray-300);
+  display: inline-block;
+}
+.neri-hu-after-travelling-acr {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  display: inline-block;
+  width: 430px;
+}
+.exhibition-description {
+  /* position: absolute; */
+  top: 1026px;
+  margin-top: 10rem;
+  margin: 15rem 2.5rem 5rem;
+  left: 41px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md) 0 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  text-align: left;
+  font-size: var(--font-size-4xl);
+  color: var(--color-black);
+  font-family: var(--font-helvetica-neue);
+}
+.main-picture-icon {
+  /* position: absolute; */
+  top: 285px;
+  left: 2.5rem;
+  right:25rem;
+  max-height: 100%;
+  max-width: 100%;
+  width: calc(100% - 5rem);
+  
+  object-fit: cover;
+}
+.dec-12-dec-20 {
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.dates {
+  margin: 0;
+  /* position: absolute; */
+  top: 216px;
+  left: 41px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 25px;
+  font-family: inherit;
+}
+.arc-galleria {
+  position: relative;
+  font-size: var(--font-size-4xl);
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.name-of-gallery {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.showcase {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-weight: 300;
+  font-family: var(--font-helvetica-neue);
+  color: var(--color-gray-400);
+  text-align: left;
+  display: inline-block;
+  cursor: pointer;
+}
+.hamburger-menu,
+.nav-bar {
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.nav-bar {
+  align-self: stretch;
+  height: 92px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+}
+.landing-page-main,
+.navbar {
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-lg);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.landing-page-main {
+  position: relative;
+  width: 100%;
+  height: 2211.45px;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+  color: var(--color-black);
+  font-family: var(--font-helvetica-neue);
+}
+/* @media screen and (max-width: 12/00px) { */
+  .navbar {
+    width: 100%;
+  /* } */
+}
+
+.flex-cont{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2.5rem;
+  margin-top: 1rem;
+}

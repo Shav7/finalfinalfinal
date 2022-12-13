@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./exhibition-p2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Helvetica Neue:wght@300;400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Neue Haas Grotesk Text Pro:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="exhibition-p2">
+      <div class="previous-project-button" id="previousProjectButton">
+        <div class="previous-project">←previous project</div>
+      </div>
+      <div class="div3">
+        <div class="frame-div1">
+          <img
+            class="screen-shot-2022-11-29-at-4103"
+            alt=""
+            src="public/screen-shot-20221129-at-410-21@2x.png"
+          />
+          <div class="the-magical-lane-houses-which">
+            The magical lane houses, which were once the dominant fabric that
+            made urban Shanghai the intoxicating place that it was in the 1930s,
+            are now slowly being demolished, taken over by high-density
+            developments all over the city.
+          </div>
+        </div>
+        <div class="frame-div1">
+          <img
+            class="screen-shot-2022-11-29-at-4103"
+            alt=""
+            src="public/screen-shot-20221129-at-410-31@2x.png"
+          />
+          <div class="the-magical-lane-houses-which">
+            Neri&Hu was commissioned to reconstruct a dilapidated lane house
+            left with almost nothing except its glorious shell in the historic
+            and artistic Tianzifang area in Shanghai, and the mission was to
+            transform it into three separate apartment units.
+          </div>
+        </div>
+        <div class="frame-div1">
+          <img
+            class="screen-shot-2022-11-29-at-4103"
+            alt=""
+            src="public/screen-shot-20221129-at-410-41@2x.png"
+          />
+          <div class="the-magical-lane-houses-which">
+            Neri&Hu’s strategy was to rethink the typology of the lane house –
+            keeping the split level formation, a typical trait to lane houses in
+            this city, and add spatial interest through new insertions and
+            skylights to accentuate the architectural integrity of such a
+            typology.
+          </div>
+        </div>
+      </div>
+      <div class="div4">
+        <div class="frame-div4">
+          <img
+            class="neri-and-hu-rethinking-the-spl-icon1"
+            alt=""
+            src="public/neriandhurethinkingthesplithouse15@2x.png"
+          />
+          <div class="utilizing-the-wear-that-old-ma">
+            Utilizing the wear that old materials experience naturally as part
+            of the building palette allows the intentional and smooth
+            integration of the past into modern architecture. In some cases,
+            Neri + Hu emulate the aging when they couldn’t keep the original
+            element. On the left the wooden stairs needed to be taken out for
+            safety reasons but as the stairs form an integral part of the
+            typology, it was replaced with a metal staircase with a patina
+            finish giving it that same focus.
+          </div>
+        </div>
+      </div>
+      <div class="navbar2">
+        <nav class="nav-bar2">
+          <div class="name-of-gallery3" id="nameOfGallery">
+            <img
+              class="backbutton-icon1"
+              alt=""
+              src="public/backbutton.svg"
+              id="backButtonIcon"
+            />
+          </div>
+          <div class="name-of-gallery3" id="nameOfGallery1">
+            <div class="rethinking-the-split-house1">
+              Rethinking The Split House
+            </div>
+          </div>
+          <div class="hamburger-menu2">
+            <b class="showcase2" id="showcaseText">showcase</b>
+            <div class="about2" id="aboutText">about</div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <script>
+      var previousProjectButton = document.getElementById("previousProjectButton");
+      if (previousProjectButton) {
+        previousProjectButton.addEventListener("click", function (e) {
+          window.location.href = "./exhibition-p1.html";
+        });
+      }
+      
+      var backButtonIcon = document.getElementById("backButtonIcon");
+      if (backButtonIcon) {
+        backButtonIcon.addEventListener("click", function (e) {
+          window.location.href = "./exhibition-page-main.html";
+        });
+      }
+      
+      var nameOfGallery = document.getElementById("nameOfGallery");
+      if (nameOfGallery) {
+        nameOfGallery.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var nameOfGallery1 = document.getElementById("nameOfGallery1");
+      if (nameOfGallery1) {
+        nameOfGallery1.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var showcaseText = document.getElementById("showcaseText");
+      if (showcaseText) {
+        showcaseText.addEventListener("click", function (e) {
+          window.location.href = "./exhibition-page-main.html";
+        });
+      }
+      
+      var aboutText = document.getElementById("aboutText");
+      if (aboutText) {
+        aboutText.addEventListener("click", function (e) {
+          window.location.href = "./about.html";
+        });
+      }
+      </script>
+  </body>
+</html>
